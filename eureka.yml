@@ -8,7 +8,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
   server:
-    renewalPercentThreshold: 0.49 # Avoid 'RENEWALS ARE LESSER THAN THRESHOLD' warnings in single-eureka env
+    renewalPercentThreshold: 0.48 # Avoid 'RENEWALS ARE LESSER THAN THRESHOLD' warnings in single-eureka env
 
 spring:
   application:
