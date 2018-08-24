@@ -1,0 +1,15 @@
+# server:
+#   port: 18095
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    renewalPercentThreshold: 0.49 # Avoid 'RENEWALS ARE LESSER THAN THRESHOLD' warnings in single-eureka env
+
+spring:
+  application:
+    name: eureka
