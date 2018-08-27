@@ -1,5 +1,5 @@
 
 orgstruct:
   config:
-    someOption: valueNewFromGitConfig
+    someOption: valueNew2FromGitConfig
 
